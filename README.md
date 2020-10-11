@@ -39,7 +39,9 @@ STEP 8 :- After going in to "dj@kali:~/Desktop/AutomatedMailConformation_genarat
           
           
 
+For Pictorial explaination visit :- www.techdevp.online 
 
+and go to tools section in TechDevp Portal !
 
 
 
@@ -48,5 +50,7 @@ STEP 8 :- After going in to "dj@kali:~/Desktop/AutomatedMailConformation_genarat
          
          
 Contributed by : Devi Jagannadh Kotha 
+
 Email          : devijagannadh@gmail.com , admin@techdevp.online !
+
 Linkedin       : https://linkedin.com/in/devi-jagannadh-kotha-11b18517b/
