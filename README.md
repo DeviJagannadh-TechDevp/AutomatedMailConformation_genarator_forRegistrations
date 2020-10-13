@@ -12,16 +12,27 @@ STEP 4 :-we have to edit the .config file now for that do  "sudo nano /etc/ssmtp
 STEP 5 :- --> Very Important !!!!!    
                
 root=XXXXXXXXX@gmail.com								
+
 mailhub=smtp.gmail.com:465
+
 rewriteDomain=gmail.com
+
 AuthUser=XXXXXXXXXX@gmail.com
+
 AuthPass=XXXXXXXX           
+
 FromLineOverride=YES
+
 UseTLS=YES
-          
-					--> append the above code in that .config file ! (9 th line to 13 th line !)
-          --> at "Sendermail@gmail.com" give your fake mail(recommended)
-          -->At AuthUser and AuthPass give yout original gmail id and pass ! (**Allow less secure apps in your gmail !)
+
+
+
+--> append the above code in that .config file ! (9 th line to 13 th line !)
+
+--> at "Sendermail@gmail.com" give your fake mail(recommended)
+
+-->At AuthUser and AuthPass give yout original gmail id and pass ! (**Allow less secure apps in your gmail !)
+
 STEP 6 :-clrl+x will close and save the code next go to terminal and enter "sudo git clone https://github.com/devijagannadhkotha/AutomatedMailConformation_genarator_forRegistrations.git" 
           it will download my repo for you !!
 STEP 7 :- you can see a new folder created open that and right click on empty space and open terminal from there !
