@@ -10,9 +10,10 @@ Real Process Starts From Here !!!!!
 STEP 3 :- Open your linux terminal and type "   sudo apt-get update && sudo apt-get install ssmtp    "  or  " sudo apt-get install ssmtp "  {FOR INSTALLING THE SMPT SERVER IN YOUR LOCAL MACHINE !}
 STEP 4 :-we have to edit the .config file now for that do  "sudo nano /etc/ssmtp/ssmtp.conf " {NANO IS TEXT EDITOR , SSMPT.CONF IF CONF FILE !!!}
 STEP 5 :- --> Very Important !!!!!    
-                root=XXXXXXXXX@gmail.com
+               
+	                                         root=XXXXXXXXX@gmail.com
 								
-              mailhub=smtp.gmail.com:465
+                                                 mailhub=smtp.gmail.com:465
              
 						 rewriteDomain=gmail.com
              
