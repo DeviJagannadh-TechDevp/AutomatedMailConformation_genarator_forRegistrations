@@ -11,19 +11,13 @@ STEP 3 :- Open your linux terminal and type "   sudo apt-get update && sudo apt-
 STEP 4 :-we have to edit the .config file now for that do  "sudo nano /etc/ssmtp/ssmtp.conf " {NANO IS TEXT EDITOR , SSMPT.CONF IF CONF FILE !!!}
 STEP 5 :- --> Very Important !!!!!    
                
-	                                         root=XXXXXXXXX@gmail.com
-								
-                                           mailhub=smtp.gmail.com:465
-             
-				                              		 rewriteDomain=gmail.com
-             
-					                               	 AuthUser=XXXXXXXXXX@gmail.com
-             
-					                              	 AuthPass=XXXXXXXX
-             
-						                               FromLineOverride=YES
-             
-						                                UseTLS=YES
+root=XXXXXXXXX@gmail.com								
+mailhub=smtp.gmail.com:465
+rewriteDomain=gmail.com
+AuthUser=XXXXXXXXXX@gmail.com
+AuthPass=XXXXXXXX           
+FromLineOverride=YES
+UseTLS=YES
           
 					--> append the above code in that .config file ! (9 th line to 13 th line !)
           --> at "Sendermail@gmail.com" give your fake mail(recommended)
